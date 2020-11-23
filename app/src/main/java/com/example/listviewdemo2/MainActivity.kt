@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         listView = findViewById(R.id.listView)
         listView.adapter = adapter
 
-
+//수정수정tnwjdtnwjd
         listView.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
             var selectItem = parent.getItemAtPosition(position) as Guestbook
             Toast.makeText(this,selectItem.title, Toast.LENGTH_LONG).show()
